@@ -386,3 +386,17 @@ The design was implemented, a bitstream was generated, and the Basys 3 was progr
 **Complete and verified on hardware.**
 
 The final design successfully converts a noisy asynchronous mechanical pushbutton into one clean counter event per press using synchronization, debouncing, and rising-edge detection.
+
+
+## Hardware Demonstration
+
+The design was programmed onto a Digilent Basys 3 and verified on hardware.
+
+Verified behavior:
+
+- One button press produces one counter increment.
+- Holding the button does not cause repeated increments.
+- Releasing the button does not increment the counter.
+- The reset button returns `count[3:0]` to `0000`.
+
+[Watch the hardware verification video](hardware_verification.mp4)
