@@ -1,0 +1,64 @@
+# Vivado / Xilinx generated files
+.Xil/
+*.jou
+*.log
+*.str
+*.pb
+*.wdb
+*.wcfg
+*.dcp
+*.bit
+*.bin
+*.ltx
+*.mmi
+
+# Vivado project-generated directories
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.srcs/
+*.data/
+
+# Vivado project files
+*.xpr
+
+# Generated IP / block-design output
+*.bd
+*.bxml
+*.xml
+*.veo
+*.vho
+
+# Simulation output
+xsim.dir/
+*.vcd
+*.fst
+*.ghw
+
+# Temporary / backup files
+*~
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# OS / editor metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python cache (if scripts are added later)
+__pycache__/
+*.pyc
+
+# Keep source-controlled project content
+!rtl/
+!sim/
+!constraints/
+!docs/
+!README.md
